@@ -13,9 +13,17 @@ body {
     color: #a40000;
 }
 
+h1 {
+    font-size: large;
+}
+
 a {
     text-decoration: none;
     color : inherit;
+}
+
+main {
+    margin: 50%;
 }
 
 /*--Header--*/
@@ -58,6 +66,8 @@ a.nav-link:active {
     border: 5px solid #000000;
     border-bottom: 5px solid #ef0000;
 }
+
+/*Footer*/
 
 footer {
     width: 100%;

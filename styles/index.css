@@ -4,9 +4,15 @@
 }
 
 #news-section {
-    width: 100%;
     height: 50%;
     padding: 0.5em, 2em;
     background: #2d0000;
-    border: 10px solid #2d0000;   
+    border: 10px solid #2d0000;
+}
+
+#news {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-content: center;
 }

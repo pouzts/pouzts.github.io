@@ -36,9 +36,12 @@ main {
 /*--Header--*/
 header {
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     height: fit-content;
-    padding: 1em, 5em;
+    padding: 1em, 4em;
     background-color: #a40000 ;
     color: #000000;
 }
@@ -56,25 +59,24 @@ a.nav-link {
     justify-content: center;
     padding: 1rem;
     background-color: #a40000 ;
-    border: 5px solid #a40000 ;
 }
 
 a.nav-link:hover {
     background-color: #ef0000;
-    border: 5px solid #ef0000;
-    border-bottom: 5px solid #000000;
+    color: #2d0000;
+    text-shadow: 2px 2px #000000;
 }
 
 a.nav-link:active {
     background-color: #000000;
     color: #ef0000;
-    border: 5px solid #000000;
-    border-bottom: 5px solid #ef0000;
 }
 
 /*Footer*/
 footer {
     position: relative;
+    left: 0;
+    right: 0;
     width: 100%;
     height: 1.5em;
     display: flex;

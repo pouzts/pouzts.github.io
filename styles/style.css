@@ -4,17 +4,6 @@
     src: url("../fonts/TightPixel.ttf") format('truetype');
 }
 
-body {
-    font-family: "TightPixel", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    font-size: 3em;
-    background-color: #000000;
-    color: #a40000;
-}
-
 a {
     text-decoration: none;
     color : inherit;
@@ -28,14 +17,10 @@ h2 {
     text-shadow: 4px 4px #000000;
 }
 
-main {
-    height: 10em;
-    bottom: 0;
-}
-
 /*--Header--*/
 header {
     position: fixed;
+    z-index: 9;
     top: 0;
     left: 0;
     right: 0;
@@ -64,7 +49,7 @@ a.nav-link {
 a.nav-link:hover {
     background-color: #ef0000;
     color: #2d0000;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2em 2em #000000;
 }
 
 a.nav-link:active {
@@ -72,9 +57,25 @@ a.nav-link:active {
     color: #ef0000;
 }
 
+/*Body*/
+body {
+    font-family: "TightPixel", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 3em;
+    background-color: #000000;
+    color: #a40000;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
 /*Footer*/
 footer {
-    position: relative;
     left: 0;
     right: 0;
     width: 100%;

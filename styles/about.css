@@ -58,7 +58,7 @@ li {
 
 .skill-item {
     width: 25rem;
-    height: 25rem;
+    height: 100%;
     background-color: #000000;
     border: 4px solid #a40000;
 }

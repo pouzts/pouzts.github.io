@@ -4,6 +4,10 @@
     src: url("../fonts/TightPixel.ttf") format('truetype');
 }
 
+html {
+    font-size: small;
+}
+
 a {
     text-decoration: none;
     color : inherit;

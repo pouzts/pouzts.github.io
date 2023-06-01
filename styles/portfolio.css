@@ -1,0 +1,46 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    text-shadow: 4px 4px #000000;   
+}
+
+#portfolio-section {
+    border-top: none;
+    background: #000000;
+    padding: 2em;
+}
+
+#games {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-item {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    border: 4px solid #a40000;
+    background-color: #000000;
+    box-shadow: 12px 12px #000000;
+}
+
+.game-item:hover {
+    border: 4px solid #ef0000;
+    background-color: #ef0000;
+    color : #000000;
+}
+
+.game-item:hover h3 {
+    text-shadow: none;
+}
+
+.game-item:hover p {
+    text-shadow: none;
+}
+
+.game-item:active {
+    border: 4px solid #a40000;
+    background-color: #a40000;
+    color : #2d0000;
+    box-shadow: none;
+}

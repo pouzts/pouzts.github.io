@@ -122,3 +122,7 @@ footer {
     color: #000000;
 }
 
+.footer-link:hover {
+    text-decoration: underline;
+}
+

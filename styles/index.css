@@ -1,21 +1,16 @@
-h1 {
-    text-shadow: 4px 4px #2d0000;
-}
-
 h2 {
     text-shadow: 4px 4px #000000;
 }
 
 #welcome-section {
     margin: 2em;
+    border-top: none;
+    background-color: #000000;
 }
 
 #news-section {
     left: 0;
     right: 0;
-    width: 100%;
-    background: #2d0000;
-    border: 2px solid #2d0000;
     height: min-content;
 }
 

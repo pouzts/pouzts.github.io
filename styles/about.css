@@ -1,19 +1,64 @@
-h1 {
+h2 {
     text-shadow: 4px 4px #000000;
 }
 
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px #2d0000;
+}
+
+ul {
+    list-style: square;
+}
+
+li {
+    text-shadow: 4px 4px #2d0000;
+}
+
 #about-section {
-    background-color: #2d0000;
     width: fit-content;
     display: grid;
     grid-template-columns: 25% 75%;
     justify-content: center;
+    border: 4px solid #a40000;
 }
 
 #about-image {
     width: 100%;
+    height: fit-content;
 }
 
 #about-me {
     padding: 0em 2em;
+    background-color: #000000;
+    border: 4px solid #a40000;
+}
+
+#education-section {
+    padding: 1em 2em;
+}
+
+#education-info {
+    text-shadow: 4px 4px #000000;
+}
+
+#skills-section {
+    display: flex;
+    padding: 1em 2em;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#skill-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.skill-item {
+    width: 10em;
+    height: 10em;
+    background-color: #000000;
+    border: 4px solid #a40000;
 }

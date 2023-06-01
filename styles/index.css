@@ -31,6 +31,14 @@ h2 {
     color: #ef0000;
 }
 
+.news-img {
+    width: 100%;
+}
+
+.news-description {
+    padding: 0em 1em;
+}
+
 a.news-link {
     border: 5px solid #ef0000;
     text-shadow: 4px 4px #2d0000;
